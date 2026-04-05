@@ -1,4 +1,4 @@
-# Battle Boats
+# battle-boats
 
 A command-line Battleship-style game written in Python. Sink all hidden ships on a 10x10 grid by guessing coordinates. Ships are randomly placed each game, and your accuracy is scored at the end.
 
