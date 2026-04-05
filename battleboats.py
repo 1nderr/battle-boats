@@ -1,6 +1,5 @@
 from random import randint
 from os import system
-from time import sleep
 top_row = '''
             Battle Boats
     0  1  2  3  4  5  6  7  8  9
@@ -55,7 +54,7 @@ def update_board(marker, rows, attack_coords, total_attacks):
                 row = ''.join(row_point_list)
         updated_rows.append(row)
     total_attacks += 1
-    system('cls')
+    system('clear')
     print(top_row)
     print('\n'.join(updated_rows))
     print('HIT!') if marker == 'O' else print('MISS!')
@@ -96,7 +95,7 @@ while score != 14:
         elif attack_coords in used_attack_coords:
             int('error')
     except ValueError:
-        system('cls')
+        system('clear')
         print(top_row)
         print('\n'.join(rows))
         print('PLEASE ENTER A 2 DIGIT INTEGER THAT YOU HAVE NOT ENTERED YET!')
