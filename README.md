@@ -13,7 +13,7 @@ A command-line Battleship-style game written in Python. Sink all hidden ships on
 ## Installation
 
 ```bash
-git clone https://github.com/is386/battle-boats.git
+git clone https://github.com/1nderr/battle-boats.git
 cd battle-boats
 ```
 
