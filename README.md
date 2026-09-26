@@ -17,12 +17,12 @@ git clone https://github.com/1nderr/battle-boats.git
 cd battle-boats
 ```
 
-**Requirements:** Python 3
+**Requirements:** [uv](https://docs.astral.sh/uv/), which will install Python if you do not have it
 
 ## Usage
 
 ```bash
-python3 battleboats.py
+uv run battleboats.py
 ```
 
 ## Board
